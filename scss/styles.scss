@@ -69,3 +69,23 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+/* Stats */
+@media (max-width: 767px) {
+  .stat {
+    border-right: none !important;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px var(--bs-dark);
+  }
+
+  .stats .row div:last-child .stat {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .stats .row div:nth-child(3) .stat {
+    border-right: none !important;
+  }
+}
